@@ -2,6 +2,10 @@
 .nav-link {
     color: gray;
 }
+/*Jumbotron*/
+.jumbotron {
+    background-color: transparent;
+}
 /*Breadcrumb*/
 .breadcrumb {
     background-color: transparent;
@@ -24,9 +28,16 @@
 .card-body1{
     padding: 10px;
 }
+.card{
+    background-color: transparent;
+    border-color: transparent;
+}
 /*Accordion*/
 .accordion {
     padding: 10px 200px 0;
+}
+.accordion .card {
+    border-color: gray;
 }
 .btn-link {
     color: #A49393;
@@ -49,7 +60,7 @@ footer {
     text-align: center;
     margin: 50px auto 0;
     border: none;
-    padding: 50px;
+    padding: 30px;
 }
 .backtop {
     float: right;
