@@ -1,4 +1,132 @@
-/*Colors
-Title: A49393
-Footer Color text: EED6D3
-Button color: 3E7F97*/
+/*Nav Style*/
+.nav-link {
+    color: gray;
+}
+/*Breadcrumb*/
+.breadcrumb {
+    background-color: transparent;
+}
+/*Project Overview*/
+.projectoverview {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.card-title{
+    color: #A49393;
+    font-family: Cormorant, semibold;
+    font-size: xx-large;
+}
+.card-text1{
+    font-size: medium;
+}
+.card-body1{
+    padding: 10px;
+}
+/*Accordion*/
+.accordion {
+    padding: 10px 200px 0;
+}
+.btn-link {
+    color: #A49393;
+    font-family: Cormorant;
+    font-weight: 700;
+    font-size: xx-large;
+}
+.card-body{
+    padding: 10px 100px 10px;
+}
+.imagewithtext img{
+    max-width: 80%;
+}
+
+/*Footer*/
+footer {
+    position: absolute;
+    background-color: #575858;
+    width: 100%;
+    text-align: center;
+    margin: 50px auto 0;
+    border: none;
+    padding: 50px;
+}
+.backtop {
+    float: right;
+    font-size: large;
+}
+.footer-icons {
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    justify-content: center;
+    padding: 30px;
+    list-style: none;
+}
+.footer-item {
+    padding: 10px;
+}
+footer p {
+    color: #A49393;
+}
+
+
+/*Web Styles*/
+h1 {
+    color: #A49393;
+    font-family: Cormorant, semibold;
+    font-size: 75px;
+    text-align: center;
+}
+h3{
+    font-family: Open Sans, regular;
+    font-size: x-large;
+}
+p{
+    font-family: Open Sans, regular;
+    font-size: medium;
+}
+ol {
+    font-family: Open Sans, regular;
+    font-size: medium;
+}
+
+h2{
+    color: #A49393;
+    font-family: Cormorant, semibold;
+    font-size: xx-large;
+}
+a {
+    color: #A49393;
+}
+a:hover {
+    color: #A49393;
+}
+q {
+    text-align: center;
+    font-size: larger;
+    font-style: italic;
+    font-family: Cormorant, semibold;
+}
+.imagewithtext{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btnemail {
+    text-align: center;
+    color: white;
+    padding: 10px 10px 10px;
+    font-family: Open Sans, regular;
+    font-weight: 100;
+    background-color: #3E7F97 ;
+    border-radius: 12px;
+}
+.active{
+    color: #3E7F97;
+    font-weight: 500;
+}
+html {
+    scroll-behavior: smooth;
+}

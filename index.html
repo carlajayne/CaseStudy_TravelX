@@ -15,29 +15,32 @@
 <body>
 <!--NavBar*Bootstrap*-->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <a class="navbar-brand" href="#">
-        <img src="images/logo/logo_1.png" width="50" height="50" class="d-inline-block align-top" alt="">
-      </a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
+  <a class="navbar-brand" href="#">
+    <img src="images/logo/logo_2.png" width="50px" height="50px" ></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <ul class="nav justify-content-end">
         <li class="nav-item">
           <a class="nav-link" href="#">ABOUT</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">RESUME</a>
         </li>
-        <li class="nav-item active">
-            <a class="nav-link" href="#">CASE STUDIES<span class="sr-only">(current)</span></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">CONTACT</a>
-          </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">CASE STUDIES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">CONTACT</a>
+        </li>
       </ul>
-    </div>
-  </nav>
+    </form>
+  </div>
+</nav>
 <!--End NavBar-->
 
 <!--Heading-->
@@ -55,84 +58,127 @@
 <!--End Breadcrum-->
 
 <!--Project OverView/Design Process-->
-<div>
+<div class = "projectoverview">
 <div class="card mb-3" style="max-width: 540px;">
     <div class="row no-gutters">
       <div class="col-md-4">
         <img src="images/travel_x/mobiletravelx.png" class="card-img" alt="Travel X Mobile">
       </div>
       <div class="col-md-8">
-        <div class="card-body">
+        <div class="card-body1">
           <h5 class="card-title">Project Overview</h5>
-          <p class="card-text"><p>Mobile Application Design<br>
+          <p class="card-text1">Mobile Application Design<br>
             Team Members: Parastou<br>
-            Duration: 2 Weeks</p>
-            <p>A start-up project that plans to launch the app once the global Pandemic ends. The goal is to build a modern-day mobile app that helps people plan their next trip, post-Pandemic.</p></p>
+            Duration: 2 Weeks<br><br>
+            A start-up project that plans to launch the app once the global Pandemic ends. The goal is to build a modern-day mobile app that helps people plan their next trip, post-Pandemic.</p>
         </div>
       </div>
     </div>
   </div>
 
 <h2>DOUBLE DIAMOND DESIGN PROCESS</h2>
-    <img src="images/design process no title.png" alt="Design Process">
-</div>
+    <img src="images/design process no title.png" width="600px" height="400px" alt="Design Process">
+</div></div>
 <!--End Project OverView/Design Process-->
 
-<!--Research-->
-<div>
-    <img src="images/travel_x/research.png" alt="Research">
-<h3>User Research</h3>
-<p>We started this research by using with these methods:<br>
-    <ol>
-    <li>One on One Interviews</li>
-    <li>Affinity Diagram</li>
-    <li>Empathy map</li>
-</ol>
- <br>
- The objective is to get insights on the pain points of travelers post-pandemic. With the help of our 5 interviews, we were able to narrow down the right type of traveler this mobile application will be able to help.
-</p>
-<img src="images/travel_x/travelxuserpersona.png" alt="User Persona"><br>
-<q>Sandy who loves to travel and money conscious, needs help organizing her trips and finding validated travel safety information because of the overwhelming post-pandemic safety precaution information and price inconsistency on the app/website and social media she usually go to check for her trips.</q>
-</div>
-<!--End Research-->
+<!--Accordion-->
+<div class="accordion" id="accordionExample">
+  <!--Research-->
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          1. Research
+        </button>
+      </h2>
+    </div>
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        <h3>User Research</h3>
+        <p>We started this research by using with these methods:</p>
+            <ol>
+            <li>One on One Interviews</li>
+            <li>Affinity Diagram</li>
+            <li>Empathy map</li>
+            </ol>
+        <p>The objective is to get insights on the pain points of travelers post-pandemic. With the help of our 5 interviews, we were able to narrow down the right type of traveler this mobile application will be able to help.
+        </p>
+        <div class= "imagewithtext">
+          <img src="images/travel_x/travelxuserpersona.png" width="auto" height="auto" alt="User Persona"><br>
+        <q>Sandy who loves to travel and money conscious, needs help organizing her trips and finding validated travel safety information because of the overwhelming post-pandemic safety precaution information and price inconsistency on the app/website and social media she usually go to check for her trips.</q>
+        </div>
+      </div>
+    </div>
+  </div>
+    <!--End Research-->
 
-<!--Definition & Ideation-->
-<div>
-    <img src="images/travel_x/definition.png" alt="Definition & Ideation">
-<h3>Definition & Ideation</h3>
-<p>As we continue our brainstorming through our user insights, these are the features we found will be very important for us to feature when we proceed to our prototyping:</p>
-<ol>
-    <li>Accessibility with partnering travel applications (Uber)</li>
-    <li>Travel Reviews - real time reviews from past travelers to more current status of the pandemic to the desired destination.
-    </li>
-    <li>Travel Add On - such as messaging capability on the application itself & filters travel needs to drop cost of travel</li>
-</ol>
-<h3>Method Used:</h3>
-<ol>
-    <li>Feature Prioritization Matrix</li>
-    <li>Value of Proposition</li>
-    <li>User Scenario, Storyboard and Journey Map</li>
-</ol></div>
-<!--End Definition & Ideation-->
+  <!--Definition-->
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          2. Definition & Ideation
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        <h3>Definition & Ideation</h3>
+        <p>As we continue our brainstorming through our user insights, these are the features we found will be very important for us to feature when we proceed to our prototyping:</p>
+        <ol>
+            <li>Accessibility with partnering travel applications (Uber)</li>
+            <li>Travel Reviews - real time reviews from past travelers to more current status of the pandemic to the desired destination.
+            </li>
+            <li>Travel Add On - such as messaging capability on the application itself & filters travel needs to drop cost of travel</li>
+        </ol>
+        <h3>Method Used:</h3>
+        <ol>
+            <li>Feature Prioritization Matrix</li>
+            <li>Value of Proposition</li>
+            <li>User Scenario, Storyboard and Journey Map</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+    <!--End Definition-->
 
-<!--Prototype-->
-<div>
-<img src="images/travel_x/prototype.png" alt="Prototype">
-<h3>Before starting our prototype:</h3>
-<ol>
-    <li>We first conducted a Competitor Analysis to increase more ideas on the design and content of our application.</li>
-    <li>Initiated a Task Flow & User Flow, to have an initial idea how the user will navigate through our application.</li>
-</ol>
-<p>As a result, we introduced our first Lo-Fi Prototype for testing.</p>
-<img src="images/travel_x/travelxlofi.png" alt="Lo-Fi">
-</div>
+  <!--Prototype-->
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+         3. Prototype
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        <h3>Before starting our prototype:</h3>
+        <ol>
+            <li>We first conducted a Competitor Analysis to increase more ideas on the design and content of our application.</li>
+            <li>Initiated a Task Flow & User Flow, to have an initial idea how the user will navigate through our application.</li>
+        </ol>
+        <p>As a result, we introduced our first Lo-Fi Prototype for testing.</p>
+        <div class= "imagewithtext">
+        <img src="images/travel_x/travelxlofi.png" alt="Lo-Fi"></div>
+      </div>
+    </div>
+  </div>
+    <!-- End Prototype-->
 
-<!--End Prototype-->
 
-<!--User Testing-->
-<div>
-<img src="images/travel_x/usertesting.png" alt="User Testing">
-<h3>User Testing</h3>
+  <!--User Testing-->
+  <div class="card">
+    <div class="card-header" id="headingFour">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+         4. User Testing
+        </button>
+      </h2>
+    </div>
+    <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+      <div class="card-body">
+        <h3>User Testing</h3>
 <p>During this phase, I asked 4 our my testers to do the following tasks:</p>
 <ol>
     <li>Create an account using their email address</li>
@@ -142,16 +188,30 @@
 </ol>
 <p>As a result, I discovered that the review features isn't as important to the users but more so the users are looking for the official information on how the facilities they will using and going to stay at. Lastly feature add on were simple enough and was very easy to use.
 </p>
+<div class= "imagewithtext">
 <img src="images/travel_x/travelxtest.png" alt="Test Samples">
-<p>Final Hi-Fi Prototype: <a href="https://www.figma.com/proto/iagHxcsiYrB9iLqfX1rOIL/Travel-X?node-id=234%3A273&viewport=-127%2C-113%2C0.44870322942733765&scaling=min-zoom">Link to the Final Prototype</a></p>
+<br>
 <img src="images/travel_x/travelxhifi.png" alt="Travel X Hi-Fi">
+<p>Final Hi-Fi Prototype: <a href="https://www.figma.com/proto/iagHxcsiYrB9iLqfX1rOIL/Travel-X?node-id=234%3A273&viewport=-127%2C-113%2C0.44870322942733765&scaling=min-zoom">Link to the Final Prototype</a></p>
 </div>
-<!--End User Testing-->
+      </div>
+    </div>
+  </div>
+    <!-- End User Testing-->
 
-<!--Conclusion & Future Development-->
-<div>
-<img src="images/travel_x/conclusion.png" alt="Conclusion">
-<h3>Conclusion</h3>
+
+  <!--Conclusion-->
+  <div class="card">
+    <div class="card-header" id="headingFive">
+      <h2 class="mb-0">
+        <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+         5. Conclusion & Future Development
+        </button>
+      </h2>
+    </div>
+    <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordionExample">
+      <div class="card-body">
+        <h3>Conclusion</h3>
 <p>At the end of the testing here are the things I found out more:
 </p>
 <ol>
@@ -165,25 +225,59 @@
     From this highlights, as a designer, I truly learned about the importance of simplicity and making sure everything you write or label are clear and easy to understand.<br>
     What I would do differently from here would probably asking more questions design and content a user would look for. Usability and the feature was there, but I think if I had more time, I would definitely run another testing on the final draft and get more insights on it.
     </p>
+      </div>
+      </div>
+    </div>
+  </div>
 </div>
-<!--End Conclusion & Future Development-->
+  <!-- End Conclusion-->
+<!--End Accordion-->
 
 <!--Footer-->
 <footer>
-    <a href="#">Back to Top</a>
-    <h1>Let's get in touch!</h1>
+    <a class="backtop" href="#">Back to Top</a>
+    <br>
+    <br>
+    <h1>Let's get in touch!</h1><br>
     <p>I am currently looking for opportunities in Product & Visual Design. Feel free to contact me to collaborate or even to chat over coffee Zoom!</p>
-    <button>Send Email</button>
-    <ul>
-        <li><img src="images/socialmedia/045-linkedin.png" a href="https://www.linkedin.com/in/carla-jayne-ramos-31b93017a/" atl="LinkedIn">
+
+    <button type="button" class="btnemail btn-primary" data-toggle="modal" data-target="#exampleModal">
+      SEND EMAIL
+    </button>
+
+    <ul class ="footer-icons">
+        <li class="footer-item"><img src="images/socialmedia/045-linkedin.png" a href="https://www.linkedin.com/in/carla-jayne-ramos-31b93017a/" atl="LinkedIn">
         </li>
-        <li><img src="images/socialmedia/038-github.png" a href="https://github.com/carlajayne" atl="GitHub">
+        <li class="footer-item"><img src="images/socialmedia/038-github.png" a href="https://github.com/carlajayne" atl="GitHub">
         </li>
-        <li><img src="images/socialmedia/025-instagram.png" a href="https://www.instagram.com/cjayne.designs/" atl="Instagram">
+        <li class="footer-item"><img src="images/socialmedia/025-instagram.png" a href="https://www.instagram.com/cjayne.designs/" atl="Instagram">
         </li>
     </ul>
 </footer>
 <!--End Footer-->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Send Email</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">Status</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        Sorry the email is currently unavailable.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        <!-- Unavailable
+          <button type="button" class="btn btn-primary">Save changes</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+
 
 
 </body>
