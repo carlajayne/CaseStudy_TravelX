@@ -60,11 +60,10 @@ footer {
     text-align: center;
     margin: 50px auto 0;
     border: none;
-    padding: 30px;
+    padding: 20px;
 }
 .backtop {
     float: right;
-    font-size: large;
 }
 .footer-icons {
     display: flex;
@@ -75,7 +74,7 @@ footer {
     list-style: none;
 }
 .footer-item {
-    padding: 10px;
+    padding: 30px;
 }
 footer p {
     color: #A49393;
